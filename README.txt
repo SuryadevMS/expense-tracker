@@ -1,18 +1,14 @@
-PRIVATE EXPENSE TRACKER — UI REDESIGN
+PRIVATE EXPENSE TRACKER — UI POLISH UPDATE
 
 Upload index.html and sw.js to the ROOT of your existing GitHub Pages repository,
-replacing the old files, then commit the changes.
+replacing the current versions, then commit the changes.
 
-This redesign preserves the existing IndexedDB database name/store, transaction
-records, category list and import rules, date normalization, CSV export, JSON
-backup/restore, and editing/deletion behaviour. It adds a saved light/dark theme
-toggle and refreshes the responsive visual styling.
+Changes in this update:
+- Standardizes date/month and common input heights so they align more consistently.
+- Removes the large privacy/storage warning from the top of the page.
+- Adds a compact expandable Privacy & data storage note at the bottom.
+- Preserves the existing IndexedDB database name/store, transaction records,
+  categories, date normalization, light/dark theme, import/export and restore logic.
 
-The service-worker cache was bumped to v3 so the updated interface can load.
-
-IMPORTANT:
-- Do not clear Safari website data.
-- Do not change the GitHub Pages site URL or browser used for your existing data.
-- Make a JSON backup before deploying if possible.
-- After committing, wait for GitHub Pages to update, then fully close and reopen
-  the installed app while online.
+Do not clear Safari website data or change the published URL. After deploying,
+wait for Pages to update and reopen the installed app while online.
